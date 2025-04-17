@@ -1,0 +1,45 @@
+# Python虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 分发/打包
+dist/
+build/
+*.egg-info/
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+Chinese-CLIP-opencv-onnxrun-main
+
+# 大文件（已经通过LFS管理的除外）
+*.onnx
+*.pt
+*.tar.gz
+
+# 日志
+*.log 
