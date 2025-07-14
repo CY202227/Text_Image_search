@@ -36,10 +36,6 @@ coverage.xml
 Thumbs.db
 Chinese-CLIP-opencv-onnxrun-main
 
-# 大文件（已经通过LFS管理的除外）
-*.onnx
-*.pt
-*.tar.gz
 
 # 日志
 *.log 
